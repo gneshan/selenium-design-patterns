@@ -13,7 +13,7 @@ public class ResultStat extends AbstractComponent {
     public ResultStat(WebDriver driver) {
         super(driver);
     }
-
+//test the creation of develop branch in GIT HUB
     public String getStat(){
         return this.stat.getText();
     }
